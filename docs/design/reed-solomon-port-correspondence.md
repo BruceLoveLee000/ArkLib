@@ -1514,8 +1514,10 @@ its `sum_localJet_eq_first_add_higher`, `localFirstJetExponent_eq_coordinate`, a
   `ArkLib.Data.CodingTheory.ReedSolomon.Interleaved.PowerAgreement`.
 
 Deferred: the shared-level fold and tensor-tight transfer of `TensorFoldAgreement.lean`, the
-anchored statements of `AnchoredAgreement.lean` and `AnchoredReconstruction.lean`, and the
-field-size-weighted transfer of [Jo26] for seed spaces larger than the field when `e ≥ |F|`.
+anchored statements of `AnchoredAgreement.lean` and `AnchoredReconstruction.lean`, and a
+count-level field-size-weighted transfer for seed spaces larger than the field when `e ≥ |F|`.
+The field-size-weighted transfer of [Jo26] is proved at the level of MCA error as
+`CoreDefinitions.mcaError_moduleInterleavedCode_le_fieldWeighted`.
 
 ## `ArkLib/Data/CodingTheory/InterleavedCode/Projection.lean`
 
